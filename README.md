@@ -18,9 +18,6 @@ adb install app/build/outputs/apk/debug/app-debug.apk
 
 Or from the project root:
 
-```bash
-./build_android.sh
-```
 
 Requirements: JDK 17+, Android SDK platform 37, build-tools 36+.
 Gradle 9.6 is downloaded automatically by the wrapper (already cached here).
@@ -45,7 +42,7 @@ check that a token created by the Python `core/encryption.py` decrypts in Kotlin
 
 The drawer (☰) switches sections, the **＋** button adds entries, and tapping an
 entry opens a detail sheet with copy/reveal/edit/delete and section-specific
-actions. 🔒 locks the vault and returns to the login screen.
+actions.  locks the vault and returns to the login screen.
 
 ## Security model (identical to the Python app)
 
