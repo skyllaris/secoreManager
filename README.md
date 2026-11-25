@@ -8,7 +8,7 @@ Version 2.0 replaces the original XML/views frontend with a completely rebuilt
 drawer, searchable record cards, bottom-sheet details, dynamic forms, charts and
 file-picker integration. The encrypted backend is unchanged.
 
-## Build & install
+## Build & install 
 
 ```bash
 cd android
@@ -67,10 +67,6 @@ Android stores the same SQLite files under
 users.db  emails.db  passwords.db  cards.db  wallets.db  documents.db
 health.db  projects.db  notes.db  goals.db  phones.db  alerts.db
 ```
-
-You can copy the desktop `~/.local/share/SecurePasswordManager/databases/` folder there
-with `adb push` (root/debug app required) and log in with the same username and
-master password.
 
 ## Project layout
 
